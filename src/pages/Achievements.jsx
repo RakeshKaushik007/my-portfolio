@@ -6,7 +6,7 @@ const Achievements = () => {
     return (
         <div className="achievements-container">
             <NavBar active="achievements" />
-            <h1 className="achievements-title">Achievements</h1>
+            <h1 className="achievements-title title">Achievements</h1>
             <ul className="achievements-list">
                 <li className="achievement-item">
                     Secured 4th position in the NAVIKRAN fest organized by NIT Uttarakhand (2023).
