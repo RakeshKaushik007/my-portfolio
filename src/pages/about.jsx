@@ -49,6 +49,10 @@ const About = () => {
                                 <h2>Education</h2>
                                 <ul>
                                     <li>
+                                        <strong>Master of Technology in Computer Science and Engineering</strong><br />
+                                        Dronacharya College of Engineering, September 2024 – Present
+                                    </li>
+                                    <li>
                                         <strong>Bachelor of Technology in Computer Science and Engineering</strong><br />
                                         Dronacharya College of Engineering, Nov 2020 – July 2024<br />
                                         CGPA: 8.0
