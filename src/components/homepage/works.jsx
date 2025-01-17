@@ -15,19 +15,6 @@ const Works = () => {
                     <div className="works-body">
                         <div className="work">
                             <img
-                                src="./eastman 2.png"
-                                alt="Eastman"
-                                className="work-image"
-                            />
-                            <div className="work-title">Eastman and Auto Power Limited</div>
-                            <div className="work-subtitle">
-                                Software Developer Intern
-                            </div>
-                            <div className="work-duration">July, 23 - Jan, 24</div>
-                        </div>
-
-                        <div className="work">
-                            <img
                                 src="./blackcoffer 2.jpeg"
                                 alt="Blackcoffer"
                                 className="work-image"
@@ -38,6 +25,19 @@ const Works = () => {
                             </div>
                             <div className="work-duration">Jan, 24 - April, 24</div>
                         </div>
+
+                        <div className="work">
+                            <img
+                                src="./eastman 2.png"
+                                alt="Eastman"
+                                className="work-image"
+                            />
+                            <div className="work-title">Eastman and Auto Power Limited</div>
+                            <div className="work-subtitle">
+                                Software Developer Intern
+                            </div>
+                            <div className="work-duration">July, 23 - Jan, 24</div>
+                        </div>
                     </div>
                 }
             />
@@ -46,4 +46,3 @@ const Works = () => {
 };
 
 export default Works;
-
