@@ -1,0 +1,18 @@
+@import "/src/data/styles.css";
+
+/* Journey page styles */
+.journey {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.journey h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.journey-content {
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}

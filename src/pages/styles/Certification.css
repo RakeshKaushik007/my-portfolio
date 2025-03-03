@@ -1,0 +1,18 @@
+@import "/src/data/styles.css";
+
+/* Certification page styles */
+.certification {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.certification h1 {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.certification-content {
+    padding: 10px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
