@@ -7,8 +7,11 @@ import About from "./pages/about";
 import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import Achievements from "./pages/Achievements";  // Ensure this matches 'Achievements.jsx'
+<<<<<<< HEAD
 import Certification from "./pages/Certification"; // Import new page
 import Journey from "./pages/Journey"; // Import new page
+=======
+>>>>>>> 2d1200ff66f6a16b527f9a18366a13498bee551c
 import Notfound from "./pages/404";
 
 import { TRACKING_ID } from "./data/tracking";
@@ -29,8 +32,11 @@ function App() {
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/achievements" element={<Achievements />} /> {/* Ensure this matches 'Achievements.jsx' */}
+<<<<<<< HEAD
                 <Route path="/certification" element={<Certification />} /> {/* Add new route */}
                 <Route path="/journey" element={<Journey />} /> {/* Add new route */}
+=======
+>>>>>>> 2d1200ff66f6a16b527f9a18366a13498bee551c
                 <Route path="*" element={<Notfound />} />
             </Routes>
         </div>

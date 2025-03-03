@@ -7,6 +7,7 @@
 	align-items: center;
 }
 
+<<<<<<< HEAD
 .navbar {@import "../../../data/styles.css";
 
 	.nav-container {
@@ -84,6 +85,9 @@
 		}
 	}
 	
+=======
+.navbar {
+>>>>>>> 2d1200ff66f6a16b527f9a18366a13498bee551c
 	display: flex;
 	justify-content: center;
 	align-items: center;
