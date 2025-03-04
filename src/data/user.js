@@ -27,7 +27,6 @@ const INFO = {
             "I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are Industrial which helped me getting an industrial experience.",
     },
 
-<<<<<<< HEAD
     certification: {
         title: "My Certifications",
         description: "Here are some of my certifications and achievements.",
@@ -38,8 +37,6 @@ const INFO = {
         description: "Here is my journey from school to masters.",
     },
 
-=======
->>>>>>> 2d1200ff66f6a16b527f9a18366a13498bee551c
     projects: [
         {
             title: "Kabadiwale",
@@ -75,8 +72,4 @@ const INFO = {
     ],
 };
 
-<<<<<<< HEAD
 export default INFO;
-=======
-export default INFO;
->>>>>>> 2d1200ff66f6a16b527f9a18366a13498bee551c

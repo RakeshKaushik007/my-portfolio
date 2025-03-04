@@ -3,12 +3,12 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
-
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/Journey.css";
+
+// Removed import of Logo since it's not used
 
 const Journey = () => {
     useEffect(() => {
@@ -25,26 +25,23 @@ const Journey = () => {
                 <meta name="keywords" content={(currentSEO.keywords || []).join(", ")} />
             </Helmet>
 
-            <div className="page-content">
+            <div className="journey-page">
                 <NavBar active="journey" />
-                <div className="content-wrapper">
-                    <div className="journey-logo-container">
-                        <div className="journey-logo">
-                            <Logo width={46} />
-                        </div>
-                    </div>
-
-                    <div className="journey-container">
-                        <div className="river-flow">
-                            <div className="journey-section">
+                <div className="journey-container">
+                    <div className="journey-river">
+                        <div className="journey-stage">
+                            <div className="journey-circle">School</div>
+                            <div className="journey-details">
                                 <h2>Dehradun School</h2>
                                 <p>Completed my 10th and 12th with PCM.</p>
                                 <p>Participated in NSO and NMO.</p>
                                 <p>Played basketball in interhouse competition.</p>
                             </div>
-                            <div className="arrow">➔</div>
+                        </div>
 
-                            <div className="journey-section">
+                        <div className="journey-stage">
+                            <div className="journey-circle">Graduation</div>
+                            <div className="journey-details">
                                 <h2>Dronacharya College of Engineering</h2>
                                 <p>Graduated with a B.Tech in Computer Science Engineering (2020-2024).</p>
                                 <p>Participated and won in many competitions:</p>
@@ -53,19 +50,17 @@ const Journey = () => {
                                     <li>Ranked within the Top 50 in the NES Award.</li>
                                     <li>Finalist in the Techigum competition conducted by L&T.</li>
                                 </ul>
-                            </div>
-                            <div className="arrow">➔</div>
-
-                            <div className="journey-section">
                                 <h2>Internships</h2>
                                 <p>Software Developer Intern at Eastman Auto Power Limited (July 2023 - Jan 2024).</p>
                                 <img src="internship1.jpeg" alt="internship1" className="journey-image" />
                                 <p>Data Science Intern at Blackcoffer (Jan 2024 - April 2024).</p>
                                 <img src="internship2.jpeg" alt="internship2" className="journey-image" />
                             </div>
-                            <div className="arrow">➔</div>
+                        </div>
 
-                            <div className="journey-section">
+                        <div className="journey-stage">
+                            <div className="journey-circle">Post-Graduation</div>
+                            <div className="journey-details">
                                 <h2>Masters and Internship in Japan</h2>
                                 <p>Started pursuing M.Tech in Computer Science Engineering.</p>
                                 <p>Received an invitation letter from Kyutech, Japan for an internship under Prof. Hakaru Tamukoh in AI, ML, and Robotics.</p>
@@ -76,9 +71,9 @@ const Journey = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="page-footer">
-                        <Footer />
-                    </div>
+                </div>
+                <div className="page-footer">
+                    <Footer />
                 </div>
             </div>
         </React.Fragment>
