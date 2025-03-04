@@ -53,9 +53,9 @@ const Certification = () => {
                                         Contributed to software development projects and optimized existing systems.
                                         <div className="internship-image-container">
                                             <img
-                                                src="internship1.jpeg"
+                                                src="eastman internship completioin letter.jpeg"
                                                 alt="internship1"
-                                                className="internship-image"
+                                                className="certification-image"
                                             />
                                         </div>
                                     </li>
@@ -65,9 +65,9 @@ const Certification = () => {
                                         Analyzed large datasets and developed data-driven solutions to business problems.
                                         <div className="internship-image-container">
                                             <img
-                                                src="internship2.jpeg"
+                                                src="Rakesh- blackcoffer internship completion certificate Certificate_page-0001.jpg"
                                                 alt="internship2"
-                                                className="internship-image"
+                                                className="certification-image"
                                             />
                                         </div>
                                     </li>
@@ -84,19 +84,19 @@ const Certification = () => {
 
                                 <div className="conference-image-container">
                                     <img
-                                        src="conference_certificate1.jpeg"
+                                        src="group_photo.jpg"
                                         alt="conference_certificate1"
-                                        className="conference-image"
+                                        className="certification-image"
                                     />
                                     <img
-                                        src="conference_certificate2.jpeg"
+                                        src="prof.tamukoh.jpeg"
                                         alt="conference_certificate2"
-                                        className="conference-image"
+                                        className="certification-image"
                                     />
                                     <img
-                                        src="conference_certificate3.jpeg"
+                                        src="my conference id.jpeg"
                                         alt="conference_certificate3"
-                                        className="conference-image"
+                                        className="certification-image"
                                     />
                                 </div>
                             </div>

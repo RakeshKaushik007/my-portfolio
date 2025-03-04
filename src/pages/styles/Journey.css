@@ -51,7 +51,7 @@
 }
 
 .journey-image {
-    max-width: 100%;
+    max-width: 50%; /* Reduced from 80% to 70% */
     height: auto;
     display: block;
     margin: 10px auto;
