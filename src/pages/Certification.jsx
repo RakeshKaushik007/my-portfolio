@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -9,6 +9,35 @@ import INFO from "../data/user";
 import SEO from "../data/seo";
 
 import "./styles/Certification.css";
+
+const ImageWithModal = ({ src, alt }) => {
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    return (
+        <div>
+            {/* Thumbnail Image */}
+            <img
+                src={src}
+                alt={alt}
+                className="certification-image"
+                onClick={() => setModalOpen(true)}
+            />
+
+            {/* Modal */}
+            {isModalOpen && (
+                <div className="modal-container" onClick={() => setModalOpen(false)}>
+                    <div className="modal-content">
+                        <img
+                            src={src}
+                            alt={alt}
+                            className="modal-image zoom-effect" // Added zoom effect class
+                        />
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+};
 
 const Certification = () => {
     useEffect(() => {
@@ -52,10 +81,9 @@ const Certification = () => {
                                         July 2023 - January 2024<br />
                                         Contributed to software development projects and optimized existing systems.
                                         <div className="internship-image-container">
-                                            <img
+                                            <ImageWithModal
                                                 src="eastman internship completioin letter.jpeg"
-                                                alt="internship1"
-                                                className="certification-image"
+                                                alt="Software Engineer Internship Certificate"
                                             />
                                         </div>
                                     </li>
@@ -64,10 +92,9 @@ const Certification = () => {
                                         January 2024 - April 2024<br />
                                         Analyzed large datasets and developed data-driven solutions to business problems.
                                         <div className="internship-image-container">
-                                            <img
+                                            <ImageWithModal
                                                 src="Rakesh- blackcoffer internship completion certificate Certificate_page-0001.jpg"
-                                                alt="internship2"
-                                                className="certification-image"
+                                                alt="Data Science Internship Certificate"
                                             />
                                         </div>
                                     </li>
@@ -83,20 +110,17 @@ const Certification = () => {
                                 </ul>
 
                                 <div className="conference-image-container">
-                                    <img
+                                    <ImageWithModal
                                         src="group_photo.jpg"
-                                        alt="conference_certificate1"
-                                        className="certification-image"
+                                        alt="Group Photo at the Conference"
                                     />
-                                    <img
+                                    <ImageWithModal
                                         src="prof.tamukoh.jpeg"
-                                        alt="conference_certificate2"
-                                        className="certification-image"
+                                        alt="Photo with Professor Tamukoh"
                                     />
-                                    <img
+                                    <ImageWithModal
                                         src="my conference id.jpeg"
-                                        alt="conference_certificate3"
-                                        className="certification-image"
+                                        alt="Conference ID Card"
                                     />
                                 </div>
                             </div>

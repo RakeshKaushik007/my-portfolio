@@ -8,8 +8,6 @@ import SEO from "../data/seo";
 
 import "./styles/Journey.css";
 
-// Removed import of Logo since it's not used
-
 const Journey = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -47,18 +45,37 @@ const Journey = () => {
                                 <p>Participated and won in many competitions:</p>
                                 <ul>
                                     <li>Secured 4th position in the NAVIKRAN fest organized by NIT Uttarakhand (2023).</li>
-                                    <img src="navikran.jpeg" alt="NAVIKRAN Award Certificate" className="journey-image" />
+                                    <img
+                                        src="navikran.jpeg"
+                                        alt="NAVIKRAN Award Certificate"
+                                        className="journey-image"
+                                    />
                                     <li>Ranked within the Top 50 in the NES Award.</li>
-                                    <img src="nes.jpeg" alt="NES Award Certificate" className="journey-image" />
+                                    <img
+                                        src="nes.jpeg"
+                                        alt="NES Award Certificate"
+                                        className="journey-image"
+                                    />
                                     <li>Finalist in the Techigum competition conducted by L&T.</li>
-                                    <img src="techgium.jpeg" alt="Techigum Competition Certificate" className="journey-image" />
-
+                                    <img
+                                        src="techgium.jpeg"
+                                        alt="Techigum Competition Certificate"
+                                        className="journey-image"
+                                    />
                                 </ul>
                                 <h2>Internships</h2>
                                 <p>Software Developer Intern at Eastman Auto Power Limited (July 2023 - Jan 2024).</p>
-                                <img src="eastman internship completioin letter.jpeg" alt="Internship 1" className="journey-image" />
+                                <img
+                                    src="eastman internship completioin letter.jpeg"
+                                    alt="Internship 1"
+                                    className="journey-image"
+                                />
                                 <p>Data Science Intern at Blackcoffer (Jan 2024 - April 2024).</p>
-                                <img src="Rakesh- blackcoffer internship completion certificate Certificate_page-0001.jpg" alt="Internship 2" className="journey-image" />
+                                <img
+                                    src="Rakesh- blackcoffer internship completion certificate Certificate_page-0001.jpg"
+                                    alt="Internship 2"
+                                    className="journey-image"
+                                />
                             </div>
                         </div>
 
@@ -68,15 +85,39 @@ const Journey = () => {
                                 <h2>Masters and Internship in Japan</h2>
                                 <p>Started pursuing M.Tech in Computer Science Engineering.</p>
                                 <p>Received an invitation letter from Kyutech, Japan for an internship under Prof. Hakaru Tamukoh in AI, ML, and Robotics.</p>
-                                <img src="Invitation Letter-Rakesh.jpg" alt="Kyutech Invitation Letter" className="journey-image" />
-                                <img src="hakaru_tamukoh_internship.jpg" alt="Prof. Tamukoh Internship" className="journey-image" />
+                                <img
+                                    src="Invitation Letter-Rakesh.jpg"
+                                    alt="Kyutech Invitation Letter"
+                                    className="journey-image"
+                                />
+                                <img
+                                    src="hakaru_tamukoh_internship.jpg"
+                                    alt="Prof. Tamukoh Internship"
+                                    className="journey-image"
+                                />
                                 <p>Attended The 6th International Symposium on Neuromorphic AI Hardware for 2 days.</p>
-                                <img src="group_photo.jpg" alt="Conference Certificate 1" className="journey-image" />
-                                <img src="prof.tamukoh.jpeg" alt="Conference Certificate 2" className="journey-image" />
-                                <img src="my conference id.jpeg" alt="Conference Certificate 3" className="journey-image" />
+                                <img
+                                    src="group_photo.jpg"
+                                    alt="Conference Certificate 1"
+                                    className="journey-image"
+                                />
+                                <img
+                                    src="prof.tamukoh.jpeg"
+                                    alt="Conference Certificate 2"
+                                    className="journey-image"
+                                />
+                                <img
+                                    src="my conference id.jpeg"
+                                    alt="Conference Certificate 3"
+                                    className="journey-image"
+                                />
                                 <h2>Internship</h2>
                                 <p>Worked on AI and robotics research under Prof. Hakaru Tamukoh.</p>
-                                <img src="masters_internship_photo.jpg" alt="Master's Internship" className="journey-image" />
+                                <img
+                                    src="masters_internship_photo.jpg"
+                                    alt="Master's Internship"
+                                    className="journey-image"
+                                />
                             </div>
                         </div>
                     </div>
