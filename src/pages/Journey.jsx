@@ -95,7 +95,9 @@ const Journey = () => {
                                     alt="Prof. Hakaru Tamukoh Internship"
                                     className="journey-image"
                                 />
-                                <p>Attended The 6th International Symposium on Neuromorphic AI Hardware for 2 days.</p>
+                                <p>
+                                    Attended the <b><a href="https://www.brain.kyutech.ac.jp/~neuro/2024/12/17/the-6th-international-symposium-on-neuromorphic-ai-hardware/" target="_blank" rel="noopener noreferrer">6th International Symposium on Neuromorphic AI Hardware</a></b> for 2 days.
+                                </p>
                                 <img
                                     src="group_photo.jpg"
                                     alt="Conference Certificate 1"
