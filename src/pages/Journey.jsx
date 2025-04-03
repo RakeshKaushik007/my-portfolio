@@ -92,19 +92,12 @@ const Journey = () => {
                                 />
                                 <img
                                     src="hakaru_tamukoh_internship.jpg"
-<<<<<<< HEAD
                                     alt="Prof. Hakaru Tamukoh Internship"
                                     className="journey-image"
                                 />
                                 <p>
                                     Attended the <b><a href="https://www.brain.kyutech.ac.jp/~neuro/2024/12/17/the-6th-international-symposium-on-neuromorphic-ai-hardware/" target="_blank" rel="noopener noreferrer">6th International Symposium on Neuromorphic AI Hardware</a></b> for 2 days.
                                 </p>
-=======
-                                    alt="Prof. Tamukoh Internship"
-                                    className="journey-image"
-                                />
-                                <p>Attended The 6th International Symposium on Neuromorphic AI Hardware for 2 days.</p>
->>>>>>> 0cf721e56bc158f1cfe4f48a3f552da2e7af25ff
                                 <img
                                     src="group_photo.jpg"
                                     alt="Conference Certificate 1"
@@ -139,8 +132,4 @@ const Journey = () => {
     );
 };
 
-<<<<<<< HEAD
 export default Journey;
-=======
-export default Journey;
->>>>>>> 0cf721e56bc158f1cfe4f48a3f552da2e7af25ff
