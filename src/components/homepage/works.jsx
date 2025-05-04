@@ -10,7 +10,7 @@ const Works = () => {
         {
             image: "./logo_en.png",
             alt: "Kyutech",
-            title: "Kyutech Japan",
+            title: "Kyutech - Japan",
             subtitle: "Research Intern in AIML and Robotics",
             duration: "Jan, 25 - Apr, 25",
         },
