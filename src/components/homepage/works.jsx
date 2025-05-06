@@ -8,7 +8,7 @@ import "./styles/works.css";
 const Works = () => {
     const workExperiences = [
         {
-            image: "./logo_en.png",
+            image: "./kyutechLogo.png",
             alt: "Kyutech",
             title: "Kyutech - Japan",
             subtitle: "Research Intern in AIML and Robotics",
@@ -40,9 +40,13 @@ const Works = () => {
                         {workExperiences.map((work, index) => (
                             <div className="work" key={index}>
                                 <img src={work.image} alt={work.alt} className="work-image" />
-                                <div className="work-title">{work.title}</div>
-                                <div className="work-subtitle">{work.subtitle}</div>
-                                <div className="work-duration">{work.duration}</div>
+                                <div className="work-details">
+                                    <div className="work-title">{work.title}</div>
+                                    <div className="work-info">
+                                        <div className="work-subtitle">{work.subtitle}</div>
+                                        <div className="work-duration">{work.duration}</div>
+                                    </div>
+                                </div>
                             </div>
                         ))}
                     </div>
