@@ -42,7 +42,7 @@ const INFO = {
             title: "Kabadiwale",
             description:
                 "Kabadiwale is an innovative tech initiative tackling India's scrap management crisis.",
-            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
             linkText: "View Project",
             link: "https://github.com/RakeshKaushik007/kabadivale",
         },
@@ -50,7 +50,7 @@ const INFO = {
             title: "PFD Tool",
             description:
                 "Product Flow Diagram (PFD) Tool is a software which is used at Eastman for the visualization of the chemical process built on Python.",
-            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
             linkText: "View Project",
             link: "https://github.com",
         },
@@ -61,6 +61,14 @@ const INFO = {
             logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
             linkText: "View Project",
             link: "https://github.com/RakeshKaushik007/Voice-Controlled-Robot-for-Health-Home-and-Work-Management",
+        },
+        {
+            title: "My Portfolio",
+            description:
+                "This is my personal portfolio showcasing my journey, projects, certifications, and achievements.",
+            logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+            linkText: "Visit Portfolio",
+            link: "https://rakeshkaushik.netlify.app/",
         },
     ],
 
