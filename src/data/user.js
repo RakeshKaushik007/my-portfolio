@@ -47,12 +47,12 @@ const INFO = {
             link: "https://github.com/RakeshKaushik007/kabadivale",
         },
         {
-            title: "PFD Tool",
+            title: "Voice-Controlled AI Assistant",
             description:
-                "Product Flow Diagram (PFD) Tool is a software which is used at Eastman for the visualization of the chemical process built on Python.",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+                "A Python-based AI assistant that responds to voice commands, performing tasks like web searches, opening websites and apps, and more.",
+            logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
             linkText: "View Project",
-            link: "https://github.com",
+            link: "https://github.com/RakeshKaushik007/assistant.git",
         },
         {
             title: "Voice-Controlled Robot for Health, Home, and Work Management",
