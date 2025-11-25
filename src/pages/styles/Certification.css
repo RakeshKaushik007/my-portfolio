@@ -1,0 +1,68 @@
+.certification-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transformation */
+    max-width: 100%; /* Ensures the image fits within its parent container */
+    max-height: 300px; /* Limits the height to prevent overly large images */
+    object-fit: contain; /* Ensures the entire image is visible without cropping */
+    border-radius: 8px; /* Adds rounded corners */
+    display: block; /* Centers the image */
+    margin: 10px auto; /* Adds space and centers the image horizontally */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for aesthetic appeal */
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it appears on top */
+}
+
+.modal-content {
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-image {
+    max-width: 85%; /* Ensures the modal image does not exceed 85% of viewport width */
+    max-height: 85%; /* Ensures the modal image does not exceed 85% of viewport height */
+    object-fit: contain; /* Ensures the entire image is visible without cropping */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Prominent shadow for modal image */
+    transition: transform 0.4s ease, box-shadow 0.4s ease; /* Smooth zoom effect */
+}
+
+.modal-image.zoom-effect {
+    transform: scale(1.2); /* Enlarges the image slightly for better visibility */
+    box-shadow: 0 12px 25px rgba(255, 255, 255, 0.3); /* Enhanced shadow for focus */
+}
+
+.internship-image-container img {
+    max-width: 300px; /* Ensures images are properly limited within their container */
+    max-height: 300px; /* Ensures the height is restricted for consistency */
+    object-fit: cover; /* Ensures the image fills the container as much as possible */
+    border-radius: 8px; /* Matches the rounded edges look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Keeps consistent shadow effect */
+}
+
+.conference-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds space between images */
+}
+
+.conference-image-container img {
+    max-width: 300px; /* Limits the width for consistency */
+    height: auto; /* Maintains the aspect ratio */
+    object-fit: contain; /* Ensures no cropping */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+}

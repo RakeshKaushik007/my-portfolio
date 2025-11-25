@@ -1,0 +1,64 @@
+.journey-page {
+    font-family: Arial, sans-serif;
+}
+
+.journey-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.journey-river {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 40px 0;
+    background: linear-gradient(to bottom, #d7e1ec, #9fb3c8); /* Neutral and refined gradient colors */
+    border-radius: 15px;
+}
+
+.journey-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.journey-circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3f72af; /* Refined circle color */
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.journey-details {
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #f0f4f8; /* Softer background color */
+    text-align: center;
+}
+
+.journey-image {
+    max-width: 50%; /* Reduced from 80% to 50% */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 2px solid #3f72af; /* Border to match circle color */
+}
+
+.page-footer {
+    margin-top: 50px;
+}

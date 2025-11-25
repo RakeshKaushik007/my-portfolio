@@ -1,0 +1,67 @@
+/* Achievements Container */
+.achievements-container {
+    padding: 20px;
+    background: linear-gradient(135deg, #f9f9f9, #e3f2fd);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Title */
+.achievements-title {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Achievements List */
+.achievements-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Achievement Item */
+.achievement-item {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+.achievement-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Achievement Image */
+.achievement-image {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+.achievement-item a {
+    color: #1e88e5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.achievement-item a:hover {
+    color: #1565c0;
+}
